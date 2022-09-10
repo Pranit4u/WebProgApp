@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/WebProgApp/static/css/main.f3b1a384.css",
+    "main.js": "/WebProgApp/static/js/main.18cc4d0d.js",
+    "pdf.worker.js": "/WebProgApp/34ffc01b7205fa9df05f319bc3b9355c.js",
+    "static/media/login-image.jpg": "/WebProgApp/static/media/login-image.21e8ba3f9dca3c346851.jpg",
+    "static/media/Pranit-Resume.pdf": "/WebProgApp/static/media/Pranit-Resume.64da086451020d927539.pdf",
+    "static/media/Prince-Resume.pdf": "/WebProgApp/static/media/Prince-Resume.a4c352e603f55cb2e050.pdf",
+    "static/media/fabio-mangione.jpg": "/WebProgApp/static/media/fabio-mangione.488bc249dffdae3556c6.jpg",
+    "static/media/daniel-olahh.jpg": "/WebProgApp/static/media/daniel-olahh.77c0ffac60f9218de675.jpg",
+    "static/media/Pranit-Profile.jpg": "/WebProgApp/static/media/Pranit-Profile.006d33e12298d2952908.jpg",
+    "static/media/Jitu-Profile.jpeg": "/WebProgApp/static/media/Jitu-Profile.1a5b36bee1d424add3b5.jpeg",
+    "static/media/Prince-Profile.jpeg": "/WebProgApp/static/media/Prince-Profile.cc55f5d5c228e645b894.jpeg",
+    "static/media/Sumedh-Profile.jpeg": "/WebProgApp/static/media/Sumedh-Profile.cc9594192f13fb205435.jpeg",
+    "static/media/Jitu-Resume.pdf": "/WebProgApp/static/media/Jitu-Resume.87415ab1801b5096605a.pdf",
+    "static/media/Sumedh-Resume.pdf": "/WebProgApp/static/media/Sumedh-Resume.b056792c4a257272b639.pdf",
+    "static/media/nucleo-icons.eot": "/WebProgApp/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
+    "static/media/nucleo-icons.ttf": "/WebProgApp/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
+    "static/media/nucleo-icons.woff": "/WebProgApp/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
+    "static/media/nucleo-icons.woff2": "/WebProgApp/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
+    "index.html": "/WebProgApp/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.f3b1a384.css",
+    "static/js/main.18cc4d0d.js"
+  ]
+}
