@@ -1,4 +1,3 @@
-
 import React from "react";
 // import ReactDOM from "react-dom/client";
 import {render} from "react-dom";
@@ -14,6 +13,7 @@ import JituResume from "views/examples/JituResume";
 import PranitResume from "views/examples/PranitResume";
 import SumedhResume from "views/examples/SumedhResume";
 import PrinceResume from "views/examples/PrinceResume";
+import Temp from "views/examples/Temp";
 
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 const root = document.getElementById("root");
@@ -30,7 +30,11 @@ render(
       />
       <Route
         path="/pranit-resume"
-        render={(props) => <PranitResume {...props} />}
+        render={(props) => <PranitResume {...props} />}    //here ................................
+      />
+      <Route
+        path="/pranit-before-i-fall"
+        render={(props) => <Temp {...props} />}    //here ................................
       />
       <Route
         path="/sumedh-resume"
@@ -40,7 +44,6 @@ render(
         path="/prince-resume"
         render={(props) => <PrinceResume {...props} />}
       />
-     
       <Redirect to="/index" />
     </Switch>
   </BrowserRouter>,root

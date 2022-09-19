@@ -65,9 +65,9 @@ function Contact() {
                                             </p>
                                             <p className="card-description ">
                                                 <Col>
-                                                    <SocialIcon style={{ height: 20, width: 20 }} bgColor="white" url="https://twitter.com/jaketrent" />
+                                                    <SocialIcon style={{ height: 20, width: 20 }} bgColor="white" url="https://twitter.com/sumedh_kambale?t=DXfOjeeohd6x2EotgWFj2w&s=08" />
                                                     <span style={{ paddingLeft: '20px' }} />
-                                                    E-Hostel, NITC, Kerala
+                                                    sumedh-kambale
                                                 </Col>
                                             </p>
                                         </Card>
