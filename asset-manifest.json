@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/WebProgApp/static/css/main.f3b1a384.css",
-    "main.js": "/WebProgApp/static/js/main.1b45fddc.js",
+    "main.js": "/WebProgApp/static/js/main.db81ec39.js",
     "pdf.worker.js": "/WebProgApp/34ffc01b7205fa9df05f319bc3b9355c.js",
     "static/media/login-image.jpg": "/WebProgApp/static/media/login-image.21e8ba3f9dca3c346851.jpg",
     "static/media/Pranit-Resume.pdf": "/WebProgApp/static/media/Pranit-Resume.64da086451020d927539.pdf",
     "static/media/Prince-Resume.pdf": "/WebProgApp/static/media/Prince-Resume.a4c352e603f55cb2e050.pdf",
-    "static/media/fabio-mangione.jpg": "/WebProgApp/static/media/fabio-mangione.488bc249dffdae3556c6.jpg",
     "static/media/daniel-olahh.jpg": "/WebProgApp/static/media/daniel-olahh.77c0ffac60f9218de675.jpg",
     "static/media/Pranit-Profile.jpg": "/WebProgApp/static/media/Pranit-Profile.006d33e12298d2952908.jpg",
     "static/media/Jitu-Profile.jpeg": "/WebProgApp/static/media/Jitu-Profile.1a5b36bee1d424add3b5.jpeg",
@@ -22,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.f3b1a384.css",
-    "static/js/main.1b45fddc.js"
+    "static/js/main.db81ec39.js"
   ]
 }
