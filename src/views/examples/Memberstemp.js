@@ -39,22 +39,22 @@ function Memberstemp() {
                             <Row >
                                 <Card className="card-profile card-plain">
                                     <div className="card-avatar">
-                                        <a onClick={(e) => e.preventDefault()}>
+                                        {/* <a  href="" onClick={(e) => e.preventDefault()}> */}
                                             <img
                                                 alt="..."
                                                 src={require("assets/img/faces/Jitu-Profile.jpeg")}
                                             />
-                                        </a>
+                                        {/* </a> */}
                                     </div>
                                     <CardBody>
-                                        <a onClick={(e) => e.preventDefault()}>
+                                        {/* <a href="" onClick={(e) => e.preventDefault()}> */}
                                             <div className="author">
                                                 <CardTitle tag="h4">Jitu Banot</CardTitle>
                                                 <h6 className="card-category">B190576CS</h6>
                                             </div>
-                                        </a>
+                                        {/* </a> */}
                                         <p className="card-description text-center">
-                                            jitu_b190576cs@nitc.ac.in
+                                            jitu_b190576cs@nitc.ac.in   
                                         </p>
                                     </CardBody>
                                     <CardFooter className="text-center">
@@ -71,20 +71,20 @@ function Memberstemp() {
                                 
                                 <Card className="card-profile card-plain">
                                     <div className="card-avatar">
-                                        <a onClick={(e) => e.preventDefault()}>
+                                        {/* <a href="" onClick={(e) => e.preventDefault()}> */}
                                             <img
                                                 alt="..."
                                                 src={require("assets/img/faces/Pranit-Profile.jpg")}
                                             />
-                                        </a>
+                                        {/* </a> */}
                                     </div>
                                     <CardBody>
-                                        <a onClick={(e) => e.preventDefault()}>
+                                        {/* <a href="" onClick={(e) => e.preventDefault()}> */}
                                             <div className="author">
                                                 <CardTitle tag="h4">Pranit Deshmukh</CardTitle>
                                                 <h6 className="card-category">B190553CS</h6>
                                             </div>
-                                        </a>
+                                        {/* </a> */}
                                         <p className="card-description text-center">
                                             pranit_b190553cs@nitc.ac.in
                                         </p>
@@ -105,20 +105,20 @@ function Memberstemp() {
                             <Row >
                                 <Card className="card-profile card-plain">
                                     <div className="card-avatar">
-                                        <a onClick={(e) => e.preventDefault()}>
+                                        {/* <a href="" onClick={(e) => e.preventDefault()}> */}
                                             <img
                                                 alt="..."
                                                 src={require("assets/img/faces/Prince-Profile.jpeg")}
                                             />
-                                        </a>
+                                        {/* </a> */}
                                     </div>
                                     <CardBody>
-                                        <a onClick={(e) => e.preventDefault()}>
+                                        {/* <a href="" onClick={(e) => e.preventDefault()}> */}
                                             <div className="author">
                                                 <CardTitle tag="h4">Prince Chauhan</CardTitle>
                                                 <h6 className="card-category">B190492CS</h6>
                                             </div>
-                                        </a>
+                                        {/* </a> */}
                                         <p className="card-description text-center">
                                             prince_b190492cs@nitc.ac.in
                                         </p>
@@ -137,20 +137,21 @@ function Memberstemp() {
                             
                                 <Card className="card-profile card-plain">
                                     <div className="card-avatar">
-                                        <a onClick={(e) => e.preventDefault()}>
+                                        {/* <a href="" onClick={(e) => e.preventDefault()}> */}
                                             <img
+
                                                 alt="..."
                                                 src={require("assets/img/faces/Sumedh-Profile.jpeg")}
                                             />
-                                        </a>
+                                        {/* </a> */}
                                     </div>
                                     <CardBody>
-                                        <a onClick={(e) => e.preventDefault()}>
+                                        {/* <a href="" onClick={(e) => e.preventDefault()}> */}
                                             <div className="author">
                                                 <CardTitle tag="h4">Sumedh Kambale</CardTitle>
                                                 <h6 className="card-category">B190450CS</h6>
                                             </div>
-                                        </a>
+                                        {/* </a> */}
                                         <p className="card-description text-center">
                                             sumedh_b190450cs@nitc.ac.in
                                         </p>
@@ -164,6 +165,7 @@ function Memberstemp() {
                                             target="_blank" className="btn-round" color="neutral" type="button" outline>
                                             Get
                                         </Button>
+
                                     </CardFooter>
                                 </Card>
                             </Row>

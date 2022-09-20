@@ -2,7 +2,7 @@ import React from "react";
 // import ReactDOM from "react-dom/client";
 import {render} from "react-dom";
 
-import { BrowserRouter as Router, Route, Redirect, Switch, HashRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 
 import "bootstrap/scss/bootstrap.scss";
 import "assets/scss/paper-kit.scss?v=1.3.0";
