@@ -20,7 +20,7 @@ function PranitResume() {
     });
     return (
         <div>
-            <ProfilePageHeader />
+            {/* <ProfilePageHeader />
             <div className="section profile-content">
                 <Container>
                     <div className="owner">
@@ -46,15 +46,15 @@ function PranitResume() {
                     </Row>
                     <br />
                     <div className="nav-tabs-navigation">
-                        <div className="nav-tabs-wrapper">
+                        <div className="nav-tabs-wrapper"> */}
                             <Document file={samplePdf}>
                                 <Page pageNumber={1} />
                             </Document>
-                        </div>
+                        {/* </div>
                     </div>
 
                 </Container>
-            </div>
+            </div> */}
         </div>
 
     )

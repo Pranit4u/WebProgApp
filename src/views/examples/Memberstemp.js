@@ -1,6 +1,5 @@
 
-import React from "react";
-import { Link } from "react-router-dom";
+import React,{useState} from "react";
 
 import {
     Button,
@@ -12,11 +11,13 @@ import {
     Row,
     Col
 } from "reactstrap";
-import JituResume from "./JituResume";
-import PranitResume from "./PranitResume";
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
+import pranitPdf from './../../assets/pdfs/Pranit-Resume.pdf'
+import princePdf from './../../assets/pdfs/Prince-Resume.pdf'
+import jituPdf from './../../assets/pdfs/Jitu-Resume.pdf'
+import sumedhPdf from './../../assets/pdfs/Sumedh-Resume.pdf'
 
-
-function Members() {
+function Memberstemp() {
     document.documentElement.classList.remove("nav-open");
     React.useEffect(() => {
         document.body.classList.add("profile-page");
@@ -24,6 +25,9 @@ function Members() {
             document.body.classList.remove("profile-page");
         };
     });
+
+    const [pdf,setpdf] = useState(pranitPdf);
+
     return (
         <>
             <div className="main" id="members">
@@ -31,7 +35,8 @@ function Members() {
                     <Container>
                         <h2 className="title">Members</h2>
                         <Row>
-                            <Col >
+                        <Col>
+                            <Row >
                                 <Card className="card-profile card-plain">
                                     <div className="card-avatar">
                                         <a onClick={(e) => e.preventDefault()}>
@@ -53,14 +58,17 @@ function Members() {
                                         </p>
                                     </CardBody>
                                     <CardFooter className="text-center">
-                                        <Button href="jitu-resume"
+                                        <Button onClick={(e)=>{setpdf(jituPdf)}}
                                             target="_blank" className="btn-round" color="neutral" type="button" outline>
                                             CV
                                         </Button>
+                                        <Button href="https://drive.google.com/file/d/185e5GVMGG_8-ZtZdubrRlT12gEefq7oA/view?usp=drivesdk"
+                                            target="_blank" className="btn-round" color="neutral" type="button" outline>
+                                            Get
+                                        </Button>
                                     </CardFooter>
                                 </Card>
-                            </Col>
-                            <Col >
+                                
                                 <Card className="card-profile card-plain">
                                     <div className="card-avatar">
                                         <a onClick={(e) => e.preventDefault()}>
@@ -82,15 +90,19 @@ function Members() {
                                         </p>
                                     </CardBody>
                                     <CardFooter className="text-center">
-                                    <Button href="pranit-resume"
+                                    <Button onClick={(e)=>{setpdf(pranitPdf)}}
                                             target="_blank" className="btn-round" color="neutral" type="button" outline>
                                             CV
+                                        </Button>
+                                        <Button href="https://drive.google.com/file/d/1j1akWFqIO0GAadFvLcI4tgM9dkOQm5FX/view"
+                                            target="_blank" className="btn-round" color="neutral" type="button" outline>
+                                            Get
                                         </Button>
                                     </CardFooter>
                                     
                                 </Card>
-                            </Col>
-                            <Col >
+                            </Row>
+                            <Row >
                                 <Card className="card-profile card-plain">
                                     <div className="card-avatar">
                                         <a onClick={(e) => e.preventDefault()}>
@@ -112,14 +124,17 @@ function Members() {
                                         </p>
                                     </CardBody>
                                     <CardFooter className="text-center">
-                                    <Button href="prince-resume"
+                                    <Button onClick={(e)=>{setpdf(princePdf)}}
                                             target="_blank" className="btn-round" color="neutral" type="button" outline>
                                             CV
                                         </Button>
+                                        <Button href="https://drive.google.com/file/d/1TseFY9mOsN7RBQI9QDq5WEJZusr1w5IA/view?usp=drivesdk"
+                                            target="_blank" className="btn-round" color="neutral" type="button" outline>
+                                            Get
+                                        </Button>
                                     </CardFooter>
                                 </Card>
-                            </Col>
-                            <Col >
+                            
                                 <Card className="card-profile card-plain">
                                     <div className="card-avatar">
                                         <a onClick={(e) => e.preventDefault()}>
@@ -141,13 +156,23 @@ function Members() {
                                         </p>
                                     </CardBody>
                                     <CardFooter className="text-center">
-                                    <Button href="sumedh-resume"
+                                    <Button onClick={(e)=>{setpdf(sumedhPdf)}}
                                             target="_blank" className="btn-round" color="neutral" type="button" outline>
                                             CV
                                         </Button>
+                                        <Button href="https://drive.google.com/file/d/12cr30v1bRpxTT4N4YNiSFx1bA6JrKC7f/view?usp=sharing"
+                                            target="_blank" className="btn-round" color="neutral" type="button" outline>
+                                            Get
+                                        </Button>
                                     </CardFooter>
                                 </Card>
-                            </Col>
+                            </Row>
+                        </Col>
+                        <Col>
+                        <Document file={pdf}>
+                                <Page pageNumber={1} />
+                            </Document>
+                        </Col>
                         </Row>
                     </Container>
                 </div>
@@ -156,4 +181,4 @@ function Members() {
     );
 }
 
-export default Members;
+export default Memberstemp;

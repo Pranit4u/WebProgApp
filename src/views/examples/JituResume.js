@@ -20,10 +20,10 @@ function JituResume() {
     });
     return (
         <div>
-            <ProfilePageHeader />
-            <div className="section profile-content">
-                <Container>
-                    <div className="owner">
+            {/* <ProfilePageHeader /> */}
+            {/* <div className="section profile-content"> */}
+                {/* <Container> */}
+                    {/* <div className="owner">
                         <div className="avatar">
                             <img
                                 alt="..."
@@ -44,17 +44,17 @@ function JituResume() {
                             </Button>
                         </Col>
                     </Row>
-                    <br />
-                    <div className="nav-tabs-navigation">
-                        <div className="nav-tabs-wrapper">
+                    <br /> */}
+                    {/* <div className="nav-tabs-navigation">
+                        <div className="nav-tabs-wrapper"> */}
                             <Document file={samplePdf}>
                                 <Page pageNumber={1} />
                             </Document>
-                        </div>
-                    </div>
+                        {/* </div>
+                    </div> */}
 
-                </Container>
-            </div>
+                {/* </Container> */}
+            {/* </div> */}
         </div>
 
     )
