@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/WebProgApp/static/css/main.f3b1a384.css",
-    "main.js": "/WebProgApp/static/js/main.cfbc5b4d.js",
-    "static/media/Pranit.pdf": "/WebProgApp/static/media/Pranit.70af6523a5e88a8a2c69.pdf",
+    "main.js": "/WebProgApp/static/js/main.1b45fddc.js",
     "pdf.worker.js": "/WebProgApp/34ffc01b7205fa9df05f319bc3b9355c.js",
     "static/media/login-image.jpg": "/WebProgApp/static/media/login-image.21e8ba3f9dca3c346851.jpg",
     "static/media/Pranit-Resume.pdf": "/WebProgApp/static/media/Pranit-Resume.64da086451020d927539.pdf",
@@ -17,13 +16,12 @@
     "static/media/Sumedh-Resume.pdf": "/WebProgApp/static/media/Sumedh-Resume.b056792c4a257272b639.pdf",
     "static/media/nucleo-icons.eot": "/WebProgApp/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
     "static/media/nucleo-icons.ttf": "/WebProgApp/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
-    "static/media/IMG.jpg": "/WebProgApp/static/media/IMG.eb8105baf7775506e897.jpg",
     "static/media/nucleo-icons.woff": "/WebProgApp/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
     "static/media/nucleo-icons.woff2": "/WebProgApp/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
     "index.html": "/WebProgApp/index.html"
   },
   "entrypoints": [
     "static/css/main.f3b1a384.css",
-    "static/js/main.cfbc5b4d.js"
+    "static/js/main.1b45fddc.js"
   ]
 }
