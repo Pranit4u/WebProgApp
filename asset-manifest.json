@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebProgApp/static/css/main.f3b1a384.css",
-    "main.js": "/WebProgApp/static/js/main.db81ec39.js",
+    "main.js": "/WebProgApp/static/js/main.b77c5498.js",
     "pdf.worker.js": "/WebProgApp/34ffc01b7205fa9df05f319bc3b9355c.js",
     "static/media/login-image.jpg": "/WebProgApp/static/media/login-image.21e8ba3f9dca3c346851.jpg",
     "static/media/Pranit-Resume.pdf": "/WebProgApp/static/media/Pranit-Resume.64da086451020d927539.pdf",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.f3b1a384.css",
-    "static/js/main.db81ec39.js"
+    "static/js/main.b77c5498.js"
   ]
 }
