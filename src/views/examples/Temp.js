@@ -3,12 +3,12 @@ import React, { useState } from 'react'
 import {
     Button,
     Container,
-    Row,
-    Col
+    // Row,
+    // Col
 } from "reactstrap";
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import samplePdf from './../../assets/pdfs/Pranit.pdf'
-import pd from './../../assets/pdfs/IMG.jpg'
+// import pd from './../../assets/pdfs/IMG.jpg'
 // import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 
 function Temp() {

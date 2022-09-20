@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import {
     Button,
@@ -12,8 +12,8 @@ import {
     Row,
     Col
 } from "reactstrap";
-import JituResume from "./JituResume";
-import PranitResume from "./PranitResume";
+// import JituResume from "./JituResume";
+// import PranitResume from "./PranitResume";
 
 
 function Members() {

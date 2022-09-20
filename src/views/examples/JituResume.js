@@ -1,13 +1,13 @@
 import React from 'react'
-import {
-    Button,
-    Container,
-    Row,
-    Col
-} from "reactstrap";
+// import {
+//     Button,
+//     Container,
+//     Row,
+//     Col
+// } from "reactstrap";
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import samplePdf from './../../assets/pdfs/Jitu-Resume.pdf'
-import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
+// import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 
 function JituResume() {
 

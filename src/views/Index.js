@@ -3,7 +3,7 @@ import React from "react";
 
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
 import Homepage from "components/Headers/Homepage";
-import Members from "./examples/Members";
+// import Members from "./examples/Members";
 import Resources from "./examples/Resources";
 import Contact from "./examples/Contact";
 import Memberstemp from "./examples/Memberstemp";
